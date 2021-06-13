@@ -1,0 +1,56 @@
+.line{
+    height: 6px;
+    background: black;
+    width: 70px;
+    margin: 8px auto;
+}
+body{
+    text-align: center;
+    background: linear-gradient(#fce303,#0377fc);
+}
+#par{
+    color: red;
+}
+#welcome{
+    padding-top: 100px;
+}
+#img{
+    width: 250px;
+    height: 200px;
+}
+.menu{
+    list-style: none;
+    float:right;
+    font-family: cursive;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+    position: fixed;
+}
+.list{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    
+}
+.list:hover{
+    background-color: red;
+    transition: 1.2s;
+    border-radius: 10px;
+    
+}
+.img1{
+    height: 300px;
+    width: 250px;
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+.img1:hover{
+    transform: scale(0.9);
+}
+#contacts iframe{
+    width: 100%;
+}
